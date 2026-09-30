@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Admin Login | Shimbo Mkuza Secondary School</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/admin.css" />
+  </head>
+  <body class="admin-page">
+    <main class="login-layout">
+      <a href="index.html" class="brand login-brand" aria-label="Return to school homepage">
+        <span class="brand-mark">SM</span>
+        <span class="brand-text">
+          <strong>Shimbo Mkuza</strong>
+          <small>Secondary School</small>
+        </span>
+      </a>
+
+      <section class="login-card" aria-labelledby="login-title">
+        <span class="section-tag">Administration</span>
+        <h1 id="login-title">Welcome back</h1>
+        <p>Sign in to manage school information and admin accounts.</p>
+
+        <form id="login-form" class="admin-form">
+          <label for="username">Username</label>
+          <input id="username" name="username" autocomplete="username" required />
+
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required />
+
+          <p id="login-message" class="form-message" role="alert" aria-live="polite"></p>
+          <button class="btn btn-primary" type="submit">Log in</button>
+        </form>
+
+        <div class="demo-warning">
+          <strong>Prototype login</strong>
+          <p>This browser-only demo stores account data locally. Do not use it to protect real school data.</p>
+          <details>
+            <summary>Initial demo account</summary>
+            <p>Username: <code>shimbomkuzasec</code><br />Password: <code>shimbomkuza</code></p>
+          </details>
+        </div>
+        <a class="back-link" href="index.html">← Back to school website</a>
+      </section>
+    </main>
+    <script src="js/auth.js"></script>
+  </body>
+</html>

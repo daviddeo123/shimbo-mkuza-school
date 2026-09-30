@@ -1,0 +1,343 @@
+Act as a professional web designer, UI/UX designer, and front-end developer.
+
+I want you to create a beautiful, modern, professional school website page
+for:
+
+SHIMBO MKUZA SECONDARY SCHOOL
+
+The website should represent a real secondary school and should look
+professional enough to be used as the school's official website.
+
+==================================================
+BRAND
+==================================================
+
+School name:
+SHIMBO MKUZA SECONDARY SCHOOL
+
+Main colors:
+- Red
+- Grey
+- White
+
+Use red as the main accent color and grey for supporting sections.
+Do not make the website overwhelmingly red. Use white space and grey
+backgrounds to keep the design clean and professional.
+
+The overall feeling should be:
+- Professional
+- Academic
+- Trustworthy
+- Modern
+- Welcoming
+- Attractive to students, parents and teachers
+
+==================================================
+PAGE
+==================================================
+
+Create the SCHOOL HOME PAGE.
+
+The page should immediately tell visitors what Shimbo Mkuza Secondary
+School is and make the school look organized, successful and welcoming.
+
+==================================================
+HEADER / NAVIGATION
+==================================================
+
+Create a professional header containing:
+
+- School logo/emblem placeholder
+- "Shimbo Mkuza Secondary School"
+- Navigation links:
+  Home
+  About
+  Academics
+  Students
+  News & Events
+  Gallery
+  Contact
+
+Add a prominent "Apply / Join Us" button.
+
+On mobile, convert the navigation into a clean hamburger menu.
+
+Make the navigation sticky when scrolling.
+
+==================================================
+HERO SECTION
+==================================================
+
+Create a large and impressive hero section.
+
+Include:
+
+"SHIMBO MKUZA SECONDARY SCHOOL"
+
+A strong school-focused headline such as:
+
+"Building Knowledge, Character and a Brighter Future"
+
+Add a short description explaining that the school is committed to
+quality education, discipline, academic development and preparing
+students for the future.
+
+Add two buttons:
+
+"Explore Our School"
+"Contact Us"
+
+Include a large school image placeholder on the other side of the hero.
+
+Use a subtle red gradient or red design elements, but keep the overall
+appearance professional.
+
+==================================================
+WELCOME SECTION
+==================================================
+
+Create a section titled:
+
+"Welcome to Shimbo Mkuza Secondary School"
+
+Include a professional paragraph introducing the school.
+
+Add a "Read More" button.
+
+Beside the text, include a school image/card.
+
+==================================================
+SCHOOL HIGHLIGHTS
+==================================================
+
+Create attractive statistic cards such as:
+
+Students
+Teachers
+Classes
+Years of Excellence
+
+Use placeholder numbers that can easily be changed later.
+
+Make the cards visually impressive using red, grey and white.
+
+==================================================
+WHY CHOOSE OUR SCHOOL
+==================================================
+
+Create cards for:
+
+- Quality Education
+- Discipline & Character
+- Experienced Teachers
+- Academic Excellence
+- Sports & Activities
+- Safe Learning Environment
+
+Each card should have a simple modern icon.
+
+==================================================
+ACADEMICS SECTION
+==================================================
+
+Create an academic section showing examples of:
+
+- Science
+- Mathematics
+- Languages
+- Humanities
+- ICT
+- Practical Skills
+
+Include a button:
+
+"View Academics"
+
+==================================================
+NEWS & EVENTS
+==================================================
+
+Create a modern news section with three cards.
+
+Example categories:
+
+School News
+Academic Events
+Student Activities
+
+Each card should contain:
+- Image placeholder
+- Date
+- Title
+- Short description
+- "Read More"
+
+==================================================
+STUDENT LIFE
+==================================================
+
+Create a section showing student life at Shimbo Mkuza Secondary School.
+
+Include cards or image placeholders for:
+
+- Sports
+- Clubs
+- Debates
+- Academic Activities
+- School Events
+
+Make this section visually engaging.
+
+==================================================
+GALLERY
+==================================================
+
+Create a modern image gallery section.
+
+Use placeholder images for now.
+
+Include categories such as:
+
+School
+Students
+Sports
+Events
+
+Make the gallery responsive.
+
+==================================================
+CALL TO ACTION
+==================================================
+
+Create a strong red call-to-action section:
+
+"Ready to Learn, Grow and Succeed?"
+
+Add a short message and a button:
+
+"Contact the School"
+
+==================================================
+FOOTER
+==================================================
+
+Create a professional footer containing:
+
+Shimbo Mkuza Secondary School
+
+Quick Links:
+Home
+About
+Academics
+News
+Gallery
+Contact
+
+Contact Information:
+Phone: [ADD PHONE]
+Email: [ADD EMAIL]
+Location: [ADD LOCATION]
+
+Also include social media icons.
+
+Add:
+
+"© 2026 Shimbo Mkuza Secondary School. All Rights Reserved."
+
+==================================================
+DESIGN REQUIREMENTS
+==================================================
+
+Use:
+- Red
+- Dark grey
+- Light grey
+- White
+
+Use modern typography.
+
+Use:
+- Rounded cards
+- Subtle shadows
+- Clean spacing
+- Professional buttons
+- Smooth hover effects
+- Subtle scroll animations
+- Modern icons
+- Responsive layouts
+
+Do NOT make the design look childish.
+
+Do NOT use excessive animations.
+
+Do NOT use too many different colors.
+
+The website should look like a modern professional secondary-school
+website.
+
+==================================================
+RESPONSIVENESS
+==================================================
+
+The page MUST work properly on:
+
+- Desktop
+- Laptop
+- Tablet
+- Android phones
+- iPhones
+
+On small screens:
+- Navigation becomes a hamburger menu
+- Cards stack vertically
+- Images resize properly
+- Text remains readable
+- Buttons remain easy to tap
+- No horizontal scrolling
+
+==================================================
+TECHNOLOGY
+==================================================
+
+Use:
+
+HTML
+CSS
+JavaScript
+
+Keep them separated:
+
+index.html
+css/style.css
+js/app.js
+
+Use semantic HTML.
+
+Keep the code organized and beginner-friendly.
+
+Do not use unnecessary frameworks.
+
+==================================================
+IMPORTANT
+==================================================
+
+Do not create fake information about the school.
+
+Use clearly marked placeholders for information I have not provided.
+
+Before writing the code, briefly explain the structure of the page.
+
+Then create the page.
+
+After creating it:
+1. Check the HTML for errors.
+2. Check the CSS for errors.
+3. Check the JavaScript for errors.
+4. Check mobile responsiveness.
+5. Fix any problems you find.
+6. Make sure every button and navigation item behaves correctly.
+
+Do not modify unrelated projects or files.
+
+Make Shimbo Mkuza Secondary School look like a prestigious,
+modern and trustworthy school website.

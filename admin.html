@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Admin Portal | Shimbo Mkuza Secondary School</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/admin.css" />
+  </head>
+  <body class="admin-page">
+    <header class="admin-header">
+      <a href="index.html" class="brand" aria-label="Return to school website">
+        <span class="brand-mark">SM</span>
+        <span class="brand-text">
+          <strong>Shimbo Mkuza</strong>
+          <small>Admin Portal</small>
+        </span>
+      </a>
+      <div class="admin-header-actions">
+        <span id="signed-in-user" class="signed-in-user"></span>
+        <a href="index.html" class="btn btn-secondary">View Website</a>
+        <button id="logout-button" class="btn btn-primary" type="button">Log out</button>
+      </div>
+    </header>
+
+    <main class="admin-main container">
+      <div class="admin-title">
+        <div>
+          <span class="section-tag">School Website</span>
+          <h1>Admin portal</h1>
+          <p>Update public school figures, academic pathways, and account access.</p>
+        </div>
+      </div>
+
+      <aside class="demo-warning demo-warning-wide">
+        <strong>Browser-only demo: not secure for real school administration</strong>
+        <p>Accounts and school data are stored in this browser's localStorage. Anyone with browser access can inspect or change them. Use a server-backed authentication system before publishing or storing real information.</p>
+      </aside>
+
+      <section class="admin-panel" aria-labelledby="stats-heading">
+        <div class="panel-heading">
+          <div>
+            <span class="section-tag">Website content</span>
+            <h2 id="stats-heading">School highlights</h2>
+          </div>
+        </div>
+        <p class="panel-description">These figures are editable demo values. Enter the school's verified numbers before publishing.</p>
+        <form id="stats-form" class="admin-form stats-form">
+          <label>Students<input type="number" name="students" min="0" step="1" required /></label>
+          <label>Teachers<input type="number" name="teachers" min="0" step="1" required /></label>
+          <label>Classes<input type="number" name="classes" min="0" step="1" required /></label>
+          <label>Years of excellence<input type="number" name="years" min="0" step="1" required /></label>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Save figures</button>
+            <span class="form-message" id="stats-message" role="status" aria-live="polite"></span>
+          </div>
+        </form>
+      </section>
+
+      <section class="admin-panel" aria-labelledby="contact-heading">
+        <div class="panel-heading">
+          <div>
+            <span class="section-tag">Website content</span>
+            <h2 id="contact-heading">Footer contact information</h2>
+          </div>
+        </div>
+        <p class="panel-description">Edit the phone, email, and location displayed in the footer and contact page.</p>
+        <form id="contact-form" class="admin-form contact-admin-form">
+          <label>Phone<input name="phone" type="text" maxlength="80" placeholder="[ADD PHONE]" /></label>
+          <label>Email<input name="email" type="email" maxlength="120" placeholder="[ADD EMAIL]" /></label>
+          <label>Location<input name="location" type="text" maxlength="160" placeholder="[ADD LOCATION]" /></label>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Save contact information</button>
+            <span class="form-message" id="contact-message" role="status" aria-live="polite"></span>
+          </div>
+        </form>
+      </section>
+
+      <section class="admin-panel" aria-labelledby="pathways-heading">
+        <div class="panel-heading">
+          <div>
+            <span class="section-tag">Curriculum</span>
+            <h2 id="pathways-heading">Academic pathways</h2>
+          </div>
+        </div>
+        <p class="panel-description">Add or remove the pathways shown on the public homepage.</p>
+        <form id="pathway-form" class="admin-form pathway-form">
+          <label for="pathway-name">New pathway</label>
+          <div class="inline-fields">
+            <input id="pathway-name" name="pathway" maxlength="60" required />
+            <button class="btn btn-primary" type="submit">Add pathway</button>
+          </div>
+        </form>
+        <ul id="pathways-list" class="managed-list"></ul>
+        <p class="form-message" id="pathways-message" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="admin-panel" aria-labelledby="accounts-heading">
+        <div class="panel-heading">
+          <div>
+            <span class="section-tag">Access management</span>
+            <h2 id="accounts-heading">Accounts</h2>
+          </div>
+        </div>
+        <p class="panel-description">Create demo logins, promote accounts to admin, or remove accounts. Keep at least one administrator.</p>
+        <form id="account-form" class="admin-form account-form">
+          <label>Username<input name="username" autocomplete="off" minlength="3" maxlength="32" pattern="[A-Za-z0-9_\-]+" required /></label>
+          <label>Password<input name="password" type="password" autocomplete="new-password" minlength="8" required /></label>
+          <label>Role
+            <select name="role">
+              <option value="viewer">Viewer</option>
+              <option value="admin">Admin</option>
+            </select>
+          </label>
+          <button class="btn btn-primary" type="submit">Create account</button>
+        </form>
+        <p class="form-message" id="accounts-message" role="status" aria-live="polite"></p>
+        <div class="table-scroll">
+          <table class="accounts-table">
+            <thead>
+              <tr><th>Username</th><th>Role</th><th>Action</th></tr>
+            </thead>
+            <tbody id="accounts-list"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="js/admin.js"></script>
+  </body>
+</html>
